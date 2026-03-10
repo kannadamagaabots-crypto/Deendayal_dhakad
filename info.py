@@ -176,9 +176,9 @@ else:
     ON_HEROKU = False
 HAS_SSL = bool(getenv('HAS_SSL', True))
 if HAS_SSL:
-    URL = "https://https://powerful-raychel-kannadacinemastore-b161c5c4.koyeb.app/".format(FQDN)
+    URL = "https://powerful-raychel-kannadacinemastore-b161c5c4.koyeb.app/".format(FQDN)
 else:
-    URL = "http://https://powerful-raychel-kannadacinemastore-b161c5c4.koyeb.app/".format(FQDN)
+    URL = "https://powerful-raychel-kannadacinemastore-b161c5c4.koyeb.app/".format(FQDN)
 
 # ============================
 # Reactions Configuration
